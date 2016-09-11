@@ -11,6 +11,8 @@ $(function () {
 		extraKeys: {"Ctrl-Q": "toggleComment"}
 	});
 
+	
+
 
 
     function getScript () {
@@ -75,6 +77,7 @@ $(function () {
 		if(localStorage.getItem("script")) {
 		    gbl = localStorage.getItem("script");
 		    $(".script").val(gbl);
+			editor.getDoc().setValue(gbl);
 		    $(".innerbox").trigger("blur");
 		}
 	}
