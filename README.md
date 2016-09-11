@@ -17,5 +17,7 @@ Ex- c.methodcall();
 # openEditor method name 
 
 ellipse(x, y, width, heihgt) - Draw circle
+
 rect(x, y, width, height, borderradius*) - Draw rectangle *for optional 
+
 fill - fill color
