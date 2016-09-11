@@ -1,4 +1,4 @@
-# What is openEditor3 ?
+# What is openEditor ?
 
 openEditor is a cool editor to work on javascript canvas api. Here you have two panel left and right. left for preview screen and right for code section. After write code on right side just focus out cursor from code panel your output will appear on preview screen.
 
@@ -20,4 +20,4 @@ ellipse(x, y, width, heihgt) - Draw circle
 
 rect(x, y, width, height, borderradius*) - Draw rectangle *for optional 
 
-fill - fill color
+fill(string) - fill color
