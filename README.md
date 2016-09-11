@@ -21,3 +21,5 @@ ellipse(x, y, width, heihgt) - Draw circle
 rect(x, y, width, height, borderradius*) - Draw rectangle *for optional 
 
 fill(string) - fill color
+
+logs(msg) - print your logs on log section
