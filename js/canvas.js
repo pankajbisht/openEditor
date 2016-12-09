@@ -220,6 +220,22 @@
 
     //canvas property
 
+    Canvas.prototype.mode = function(is) {
+        
+        if (is == "global") {
+            var ctx = this;
+            for (var key in ctx) {
+                window[key] = ctx[key];
+            }
+        } else {
+            if (is.length > 0) {
+                throw "Please enter global as a parameter";
+            } else {
+                throw "Please enter global if you want to use all method globally";
+            }
+        }
+    };
+
     Canvas.prototype.logs = function (clr) {
 
         var tmp =   '<span class="clr-chit">' + 

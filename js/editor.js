@@ -32,7 +32,9 @@ $(function () {
         c.clear(0, 0 , 600, 500);
        
 		localStorage.setItem("script", script);
-        
+       
+       	$("head").find('script').remove();
+
         $("head").append("<script>" + script + "</script>");
 	}
 	
