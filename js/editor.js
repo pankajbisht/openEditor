@@ -11,9 +11,6 @@ $(function () {
 		extraKeys: {"Ctrl-Q": "toggleComment"}
 	});
 
-	
-
-
 
     function getScript () {
         $(".script").show();
