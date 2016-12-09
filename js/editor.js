@@ -25,6 +25,9 @@ $(function () {
     
 	function focusOut (e) {
 		e.stopPropagation();
+
+		logClear(); //log clear
+
       	var script = getScript();
         c.clear(0, 0 , 600, 500);
        

@@ -4,7 +4,10 @@ openEditor is a cool editor to work on javascript canvas api. Here you have two 
 
 In openEdit we have lots of method to achieve canvas api functionality.
 
-Ex - c.rect(0, 0, 100, 100); // for create square c indicates char or object
+Ex - c.rect(0, 0, 100, 100); // for create square 
+//c indicate character or object
+
+
 
 
 # How to use
